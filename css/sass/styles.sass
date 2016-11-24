@@ -1,0 +1,188 @@
+@import "bourbon/bourbon"
+
+.wraper
+	width: 100%
+	padding: 0 !important
+	position: relative
+	max-width: 1440px
+	.header
+		height: 110px
+		background: url("../img/bg-template.jpg")
+		@include linear-gradient(to bottom, #1231c7 0%, #1F3BC5 100%)
+		width: 100%
+		.logo
+			padding-left: 11%
+			height: 100%
+			img
+				display: block
+				height: 80%
+				padding-top: 13px
+		.name
+			img
+				display: block
+				width: 100px
+				margin: 30px auto 0
+			.slogan
+				color: #fff
+				font: 15px "MuseoSansRegular", sans-serif
+				padding-top: 10px
+				display: inline-block
+				text-align: center
+		.phones
+			background: #F00
+			padding-left: 90px
+			padding-right: 0%
+			img
+				position: absolute
+				left: 110px
+				top: 30px
+			ul
+				display: block
+				margin: 0
+				padding: 10px 0 0 20px
+				font: 17px "MuseoSansRegular", sans-serif
+				padding-top: 17px
+				li
+					display: block
+					margin-top: 5px
+					cursor: pointer
+					padding: 0
+					a
+						display: block
+						width: 100%
+						height: 100%
+						color: #fff
+			.tele
+				float: left
+				margin-left: 40px
+				&:before
+					content: ""
+					display: none
+					background: url(../img/phone1.png)
+					width: 32px
+					height: 45px
+					margin-left: -67px
+					float: left
+					margin-top: 16px
+			.teleR
+				float: left
+		.time
+			width: 46px 
+			img
+				position: absolute
+				display: block
+				height: 46px
+				width: 46px
+				top: 30px
+	.main
+		background: url("../img/background.jpg")
+		background-position: 0 50%
+		height: 589px
+		width: 100%
+		position: relative
+		overflow: hidden
+		.chuvak
+			background: url("../img/chuvak.png")
+			height: 409px
+			position: absolute
+			top: 135px 
+			left: 230px
+			width: 275px
+		.rec
+			background: url(../img/rec.png)
+			background-repeat: no-repeat
+			width: 80%
+			height: 73%
+			position: absolute
+			top: 5%
+			left: 10%
+			.desc
+				padding-left: 26px
+				font: 26px "MuseoSansRegular"
+				text-transform: uppercase
+				letter-spacing: 1px
+				span
+					color: #eab53d
+			.tezis
+				display: block
+				margin: 0
+				padding: 0
+				position: absolute
+				left: 53.5%
+				li:nth-child(2), li:nth-child(4)
+					line-height: 40px
+				li
+					display: block
+					content: ""
+					width: 44px
+					background: url(../img/sprite.png)
+					background-repeat: no-repeat
+					height: 38px
+					display: block
+					width: 80%
+					text-transform: uppercase
+					padding-left: 10px
+					line-height: 20px
+					margin-top: 15px
+					padding-left: 60px
+				li:nth-child(2)
+					background-position: 0px -54px
+					height: 43px
+				li:nth-child(3)
+					background-position: 0px -111px
+					height: 43px
+				li:nth-child(4)
+					background-position: 0px -165px
+					height: 43px
+		.message
+			display: block
+			margin: 0
+			padding: 0
+			position: absolute
+			left: 53.5%
+			bottom: 5%
+			input
+				width: 90%
+				margin-top: 5px
+				box-radius: 1px
+				border-radius: 5px
+				border: 2px solid #afadad
+				height: 30px
+				line-height: 30px
+				text-align: center
+				@include placeholder
+					text-align: center
+					text-transform: uppercase
+			button
+				margin-top: 5px
+				background: #fbcd84
+				width: 90%
+				box-radius: 1px
+				border-radius: 5px
+				border: 2px solid #afadad
+				height: 30px
+				line-height: 27px
+				text-transform: uppercase
+
+
+@media screen and (max-width: 1220px)
+	.wraper
+		.main
+			.rec
+				background: none
+				width: 90%
+				left: 5%
+				.desc, .tezis
+					background: rgba(255,255,255,.6)
+					border-radius: 4px
+				.tezis
+					li
+						margin: 15px auto
+				.message
+					bottom: -10px
+					input, button
+						margin: 5px auto
+						display: inline-block
+						margin-left: 30px
+@media screen and (max-width: 1024px)
+	display: none
