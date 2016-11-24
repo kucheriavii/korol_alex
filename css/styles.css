@@ -28,7 +28,6 @@
       display: inline-block;
       text-align: center; }
     .wraper .header .phones {
-      background: #F00;
       padding-left: 90px;
       padding-right: 0%; }
       .wraper .header .phones img {
@@ -171,6 +170,205 @@
         height: 30px;
         line-height: 27px;
         text-transform: uppercase; }
+  .wraper .achivments {
+    width: 100%;
+    position: relative; }
+    .wraper .achivments .ach-icons {
+      height: 157px;
+      margin-top: -60px; }
+      .wraper .achivments .ach-icons span {
+        font: 16px "Arial", sans-serif;
+        color: #002a4a;
+        text-align: center;
+        display: block;
+        font-weight: bold; }
+  .wraper .what-we-do {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0; }
+    .wraper .what-we-do h2 {
+      font: 23px "MuseoRegular", serif;
+      background: url("../img/h2bck2.png");
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #feffff;
+      font-weight: bold; }
+    .wraper .what-we-do .we-can {
+      width: 90%;
+      margin: 35px auto 0; }
+      .wraper .what-we-do .we-can img {
+        margin: 0 auto 10px; }
+      .wraper .what-we-do .we-can span {
+        font: 12px "Arial", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        display: block; }
+  .wraper .proff_staff {
+    background: #1c27a2; }
+    .wraper .proff_staff h2 {
+      font: 23px "MuseoRegular", serif;
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #feffff;
+      font-weight: bold; }
+    .wraper .proff_staff .staffs {
+      width: 80%;
+      margin: 0 auto; }
+      .wraper .proff_staff .staffs .staff {
+        margin-top: 50px;
+        margin-bottom: 30px; }
+        .wraper .proff_staff .staffs .staff img {
+          display: block;
+          margin: 0 auto;
+          height: 129px; }
+        .wraper .proff_staff .staffs .staff span {
+          font: 16px "Arial", sans-serif;
+          color: #fff;
+          text-align: center;
+          display: block;
+          width: 250px;
+          margin: 0 auto; }
+  .wraper .bef-aft {
+    background: url("../img/bg_med.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 10000px 560px 100px rgba(0, 0, 0, 0.6);
+    padding: 0 10%; }
+    .wraper .bef-aft .eff {
+      height: 100%;
+      margin: 30px auto; }
+      .wraper .bef-aft .eff .before {
+        display: block;
+        width: 100%;
+        border: 1px solid #fff; }
+      .wraper .bef-aft .eff .after {
+        display: block;
+        width: 100%;
+        border: 1px solid #fff; }
+      .wraper .bef-aft .eff .arr {
+        display: block;
+        height: 50px;
+        width: 50px;
+        background: url("../img/arrow_down.png");
+        height: 70px;
+        width: 55px;
+        margin: 20px auto; }
+  .wraper .clients {
+    padding: 0 10%; }
+    .wraper .clients h2 {
+      font: 34px "MuseoRegular", serif;
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #000000;
+      font-weight: bold;
+      margin-top: 35px;
+      margin-bottom: 35px; }
+    .wraper .clients .our_clients {
+      padding: 0 25px 0 0;
+      height: 100%;
+      overflow: hidden; }
+    .wraper .clients .recall {
+      background: url("../img/bg1111.png");
+      background-size: cover;
+      height: 480px;
+      overflow: auto; }
+      .wraper .clients .recall .recalls {
+        display: block;
+        padding: 0; }
+        .wraper .clients .recall .recalls li:last-child .mess {
+          border: none; }
+        .wraper .clients .recall .recalls li {
+          display: block;
+          position: relative;
+          padding-left: 25px;
+          padding-right: 25px;
+          padding-top: 25px; }
+          .wraper .clients .recall .recalls li .name {
+            font: 14px "MuseoRegular", serif;
+            color: #fff;
+            margin-bottom: 15px;
+            display: block; }
+          .wraper .clients .recall .recalls li .date {
+            position: absolute;
+            right: 25px;
+            top: 25px;
+            color: #fff;
+            font: 14px "MuseoRegular", serif; }
+          .wraper .clients .recall .recalls li .mess {
+            font: 15px "Arial", sans-serif;
+            font-style: italic;
+            line-height: 22px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 12px; }
+      .wraper .clients .recall .bredcrambs {
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 25px;
+        left: 25px; }
+        .wraper .clients .recall .bredcrambs li:hover {
+          background: #1c27a2;
+          cursor: pointer; }
+        .wraper .clients .recall .bredcrambs li {
+          display: block;
+          font: 16px "MuseoSansRegular", "Arial", sans-serif;
+          float: left;
+          height: 36px;
+          width: 36px;
+          border: 1px solid #FFF;
+          text-align: center;
+          line-height: 36px;
+          margin-right: 20px;
+          color: #fff; }
+          .wraper .clients .recall .bredcrambs li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            text-decoration: none; }
+    .wraper .clients .leave-recall {
+      height: 480px;
+      background: url(../img/leave_bg.png);
+      float: right;
+      margin-right: -25px;
+      background-size: cover; }
+      .wraper .clients .leave-recall h2.lr {
+        color: #fff;
+        margin-bottom: 0px;
+        font-size: 28px; }
+      .wraper .clients .leave-recall input, .wraper .clients .leave-recall textarea, .wraper .clients .leave-recall button {
+        width: 90%;
+        display: block;
+        margin: 15px auto;
+        height: 45px;
+        font: 17px "Arial", sans-serif;
+        line-height: 45px;
+        padding-left: 10px; }
+      .wraper .clients .leave-recall textarea {
+        height: 150px; }
+      .wraper .clients .leave-recall button {
+        background: #1c27a2;
+        font: 18px "MuseoSansRegular", sans-serif;
+        color: #fff;
+        font-weight: bold; }
+    .wraper .clients .book {
+      width: 80%;
+      margin: 40px auto; }
+      .wraper .clients .book .book_b img {
+        display: block;
+        margin: 0 auto;
+        padding-left: 27px; }
+      .wraper .clients .book .arr_up img, .wraper .clients .book .arr_down img {
+        display: block;
+        margin-top: 30px; }
+      .wraper .clients .book .arr_up img {
+        margin-left: 15px; }
+      .wraper .clients .book .arr_down img {
+        margin-left: -40px; }
 
 @media screen and (max-width: 1220px) {
   .wraper .main .rec {
