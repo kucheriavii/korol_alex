@@ -147,7 +147,8 @@
         border: 2px solid #afadad;
         height: 30px;
         line-height: 30px;
-        text-align: center; }
+        text-align: center;
+        max-width: 410px; }
         .wraper .main .message input::-webkit-input-placeholder {
           text-align: center;
           text-transform: uppercase; }
@@ -169,7 +170,8 @@
         border: 2px solid #afadad;
         height: 30px;
         line-height: 27px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        max-width: 410px; }
   .wraper .achivments {
     width: 100%;
     position: relative; }
@@ -623,6 +625,8 @@
 
   .wraper .main .rec .message {
     bottom: -63px; }
+    .wraper .main .rec .message input, .wraper .main .rec .message button {
+      margin-left: -2px; }
   .wraper .main .rec .tezis li {
     font-size: 12px; }
   .wraper .main .rec .tezis li:nth-child(3) {
@@ -654,5 +658,8 @@
       width: 80%;
       margin: 0 auto;
       margin-top: 15px; } }
+@media screen and (max-width: 768px) {
+  body {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
