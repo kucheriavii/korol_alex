@@ -5,7 +5,7 @@
 	padding: 0 !important
 	position: relative
 	max-width: 1440px
-	.header
+	.header, .footer
 		height: 110px
 		background: url("../img/bg-template.jpg")
 		@include linear-gradient(to bottom, #1231c7 0%, #1F3BC5 100%)
@@ -366,9 +366,255 @@
 				margin-left: 15px
 			.arr_down img
 				margin-left: -40px
+	.how_do_we_work
+		padding-left: 0
+		padding-right: 0
+		width: 100%
+		h2
+			font: 23px "MuseoRegular", serif 
+			background: url("../img/h2bck2.png")
+			height: 51px
+			line-height: 51px
+			text-align: center
+			color: #feffff
+			font-weight: bold
+		.proc
+			display: block
+			padding: 0
+			width: 80%
+			margin: 0 auto
+			overflow: hidden
+			li:last-child:after
+				display: none
+			li:nth-child(1) img
+				padding-top: 8px
+				width: 60%
+			li:nth-child(3) img
+				padding-top: 11px
+			li:nth-child(4) img
+				margin-top: -3px
+			li:nth-child(5) img
+				padding-top: 34px
+				width: 64%
+			li:nth-child(3) span
+				margin-top: 22px
+			li
+				display: block
+				padding: 0
+				position: relative
+				overflow: hidden
+				//&:after
+				//	content: ""
+				//	position: absolute
+				//	top: 45px
+				//	height: 22px
+				//	background: url(../img/arow_right.jpg)
+				//	right: 0px
+				//	width: 22px
+				//	background-repeat: no-repeat
+				//	z-index: 5
+				//	right: 0px
+				.imagebox
+					height: 120px
+					img
+						display: block
+						margin: 0 auto
+				span
+					display: block
+					margin-top: 25px
+					text-align: center
+					padding: 0 5px
+					margin-left: -10px
+					font: 14px "Arial", sans-serif
+					font-weight: bold
+		
+		.proc-desc
+			display: block
+			margin: 0
+			padding: 0
+			width: 80%
+			margin: 0 auto
+			li
+				display: block
+				margin: 0
+				padding: 0 5px
+				text-align: center
+				span
+					display: block
+					margin-top: 25px
+					text-align: center
+					padding: 0 5px
+					margin-left: -10px
+					font: 14px "Arial", sans-serif
+					font-weight: bold
+	.price-clean
+		width: 80%
+		h2
+			font: 34px "MuseoRegular", serif 
+			height: 51px
+			line-height: 51px
+			text-align: center
+			color: #000000
+			font-weight: bolder
+			margin-top: 35px
+			margin-bottom: 35px
+		.price
+			.pricer
+				width: 100%
+				border: 3px solid #f0d36d
+				margin-bottom: 20px
+				border-top: none
+				th,td
+					height: 50px
+					border: solid 1px #f0d36d
+					text-align: center 
+				th
+					background: #1331c7
+					color: #fff
+					font: 18px "MuseoRegular", serif
+				td
+					border: solid 1px #f0d36d
+					font: 16px "MuseoRegular", serif
+					font-weight: bold
+	.we-work
+		padding: 0
+		background: #1c27a2
+		h2
+			font: 42px "MuseoRegular", serif
+			letter-spacing: 1px
+			height: 51px
+			line-height: 51px
+			text-align: center
+			color: #feffff
+			font-weight: bold
+			margin-bottom: 0
+		.we-work-img
+			width: 80%
+			margin: 0 auto
+			.we-work-img-box
+				margin-top: 25px
+				img
+					display: block
+					width: 100%
+					height: 100%
+					border: 16px solid #fff
+		.faq
+			width: 80%
+			margin: 0 auto
+			padding-bottom: 40px
+			padding-top: 80px
+			h2
+			ul
+				display: block
+				padding: 0
+				padding-top: 15px
+				li
+					font: 16px "MuseoRegular", sans-serif
+					color: #fff
+					display: block
+					width: 100%
+					background: url("../img/bcg_down.jpg")
+					background-size: cover
+					height: 38px
+					border-radius: 10px
+					line-height: 38px
+					text-indent: 15px
+					margin-top: 15px
+					&:after
+						content: ""
+						float: right
+						margin-right: 15px
+						background: url(../img/r_arr.png)
+						display: block
+						width: 20px
+						background-size: contain
+						height: 20px
+						background-repeat: no-repeat
+						margin-top: 13px
+						cursor: pointer
+	.deal
+		background: #fff
+		padding-bottom: 65px
+		.take_a_call
+			width: 80%
+			margin: 0 auto
+			h2
+				font: 32px "MuseoSansRegular", serif 
+				height: 51px
+				line-height: 51px
+				text-align: center
+				color: #000000
+				font-weight: 900
+				margin-top: 35px
+				margin-bottom: 15px
+			h3
+				font: 22px "MuseoSansRegular", serif 
+				font-weight: 900
+				color: #000
+				text-align: center
+				margin-top: 10px
+			.f-box
+				background: url("../img/bg1113.png")
+				display: block
+				height: 100px
+				background-size: cover
+				position: relative
+				input, button
+					height: 46px
+					top: 27px
+					margin: 0 1.66%
+					width: 30%
+				button
+					background: #1c27a2
+					border: none
+					color: #fff
+					font: 15px "MuseoSansRegular", serif
+					font-weight: bold
+	footer.footer
+		.social
+			display: block
+			padding: 0
+			margin: 0
+			width: 90px
+			margin: 0 auto
+			li
+				padding: 0
+				margin: 0
+				display: block
+				float: left
+				a
+					display: block
+					background: #f00
+					width: 30px
+					height: 30px
+					float: left
+					margin-top: 40px
+				.fb
+					background: url("../img/fb.png")
+					background-size: cover
+				.vk
+					background: url("../img/vk.png")
+					background-size: cover
+				.ig
+					background: url("../img/in.png")
+					background-size: cover
+		.phones
+			padding-left: 0
+			margin-left: -18px
+			.tele, .wraper .footer .phones .tele
+				margin-left: -14px
+
+
+
 
 @media screen and (max-width: 1220px)
 	.wraper
+		.what-we-do
+			.we-can
+				padding-bottom: 25px
+			.second-we-can
+				margin-top: 0
+
 		.main
 			.rec
 				background: none
@@ -389,6 +635,54 @@
 		.what-we-do
 			.we-can
 				//width: 100%
-@media screen and (max-width: 1024px)
-	body
-		display: none !important
+@media screen and (max-width: 1000px)
+.wraper
+	.what-we-do
+		.second-we-can
+			margin-top: 0
+		.we-can
+			.job
+				margin-top: 5px
+.wraper
+	.achivments
+		.ach-icons
+			span
+				font-size: 12px
+.wraper
+	.main
+		.rec
+			.message
+				bottom: -63px
+			.tezis
+				li
+					font-size: 12px
+				li:nth-child(3)
+					font-size: 12px
+					height: 55px
+				li:nth-child(2)
+					font-size: 12px
+					line-height: 19px
+				li:nth-child(1)
+					height: 55px
+				li:nth-child(4)
+					height: 55px
+					line-height: 21px
+.wraper .clients .leave-recall
+	margin: 0
+	width: 100%
+.wraper
+	.proff_staff
+		h2
+			height: auto
+		.staffs
+			.staff
+				margin-top: 20px
+				margin-bottom: 30px
+				span
+					font: 15px "Arial", sans-serif
+					color: #fff
+					text-align: center
+					display: block
+					width: 80%
+					margin: 0 auto
+					margin-top: 15px

@@ -3,57 +3,57 @@
   padding: 0 !important;
   position: relative;
   max-width: 1440px; }
-  .wraper .header {
+  .wraper .header, .wraper .footer {
     height: 110px;
     background: url("../img/bg-template.jpg");
     background-color: #1231c7;
     background-image: -webkit-linear-gradient(top, #1231c7 0%, #1F3BC5 100%);
     background-image: linear-gradient(to bottom,#1231c7 0%, #1F3BC5 100%);
     width: 100%; }
-    .wraper .header .logo {
+    .wraper .header .logo, .wraper .footer .logo {
       padding-left: 11%;
       height: 100%; }
-      .wraper .header .logo img {
+      .wraper .header .logo img, .wraper .footer .logo img {
         display: block;
         height: 80%;
         padding-top: 13px; }
-    .wraper .header .name img {
+    .wraper .header .name img, .wraper .footer .name img {
       display: block;
       width: 100px;
       margin: 30px auto 0; }
-    .wraper .header .name .slogan {
+    .wraper .header .name .slogan, .wraper .footer .name .slogan {
       color: #fff;
       font: 15px "MuseoSansRegular", sans-serif;
       padding-top: 10px;
       display: inline-block;
       text-align: center; }
-    .wraper .header .phones {
+    .wraper .header .phones, .wraper .footer .phones {
       padding-left: 90px;
       padding-right: 0%; }
-      .wraper .header .phones img {
+      .wraper .header .phones img, .wraper .footer .phones img {
         position: absolute;
         left: 110px;
         top: 30px; }
-      .wraper .header .phones ul {
+      .wraper .header .phones ul, .wraper .footer .phones ul {
         display: block;
         margin: 0;
         padding: 10px 0 0 20px;
         font: 17px "MuseoSansRegular", sans-serif;
         padding-top: 17px; }
-        .wraper .header .phones ul li {
+        .wraper .header .phones ul li, .wraper .footer .phones ul li {
           display: block;
           margin-top: 5px;
           cursor: pointer;
           padding: 0; }
-          .wraper .header .phones ul li a {
+          .wraper .header .phones ul li a, .wraper .footer .phones ul li a {
             display: block;
             width: 100%;
             height: 100%;
             color: #fff; }
-      .wraper .header .phones .tele {
+      .wraper .header .phones .tele, .wraper .footer .phones .tele {
         float: left;
         margin-left: 40px; }
-        .wraper .header .phones .tele:before {
+        .wraper .header .phones .tele:before, .wraper .footer .phones .tele:before {
           content: "";
           display: none;
           background: url(../img/phone1.png);
@@ -62,11 +62,11 @@
           margin-left: -67px;
           float: left;
           margin-top: 16px; }
-      .wraper .header .phones .teleR {
+      .wraper .header .phones .teleR, .wraper .footer .phones .teleR {
         float: left; }
-    .wraper .header .time {
+    .wraper .header .time, .wraper .footer .time {
       width: 46px; }
-      .wraper .header .time img {
+      .wraper .header .time img, .wraper .footer .time img {
         position: absolute;
         display: block;
         height: 46px;
@@ -369,8 +369,234 @@
         margin-left: 15px; }
       .wraper .clients .book .arr_down img {
         margin-left: -40px; }
+  .wraper .how_do_we_work {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%; }
+    .wraper .how_do_we_work h2 {
+      font: 23px "MuseoRegular", serif;
+      background: url("../img/h2bck2.png");
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #feffff;
+      font-weight: bold; }
+    .wraper .how_do_we_work .proc {
+      display: block;
+      padding: 0;
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden; }
+      .wraper .how_do_we_work .proc li:last-child:after {
+        display: none; }
+      .wraper .how_do_we_work .proc li:nth-child(1) img {
+        padding-top: 8px;
+        width: 60%; }
+      .wraper .how_do_we_work .proc li:nth-child(3) img {
+        padding-top: 11px; }
+      .wraper .how_do_we_work .proc li:nth-child(4) img {
+        margin-top: -3px; }
+      .wraper .how_do_we_work .proc li:nth-child(5) img {
+        padding-top: 34px;
+        width: 64%; }
+      .wraper .how_do_we_work .proc li:nth-child(3) span {
+        margin-top: 22px; }
+      .wraper .how_do_we_work .proc li {
+        display: block;
+        padding: 0;
+        position: relative;
+        overflow: hidden; }
+        .wraper .how_do_we_work .proc li .imagebox {
+          height: 120px; }
+          .wraper .how_do_we_work .proc li .imagebox img {
+            display: block;
+            margin: 0 auto; }
+        .wraper .how_do_we_work .proc li span {
+          display: block;
+          margin-top: 25px;
+          text-align: center;
+          padding: 0 5px;
+          margin-left: -10px;
+          font: 14px "Arial", sans-serif;
+          font-weight: bold; }
+    .wraper .how_do_we_work .proc-desc {
+      display: block;
+      margin: 0;
+      padding: 0;
+      width: 80%;
+      margin: 0 auto; }
+      .wraper .how_do_we_work .proc-desc li {
+        display: block;
+        margin: 0;
+        padding: 0 5px;
+        text-align: center; }
+        .wraper .how_do_we_work .proc-desc li span {
+          display: block;
+          margin-top: 25px;
+          text-align: center;
+          padding: 0 5px;
+          margin-left: -10px;
+          font: 14px "Arial", sans-serif;
+          font-weight: bold; }
+  .wraper .price-clean {
+    width: 80%; }
+    .wraper .price-clean h2 {
+      font: 34px "MuseoRegular", serif;
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #000000;
+      font-weight: bolder;
+      margin-top: 35px;
+      margin-bottom: 35px; }
+    .wraper .price-clean .price .pricer {
+      width: 100%;
+      border: 3px solid #f0d36d;
+      margin-bottom: 20px;
+      border-top: none; }
+      .wraper .price-clean .price .pricer th, .wraper .price-clean .price .pricer td {
+        height: 50px;
+        border: solid 1px #f0d36d;
+        text-align: center; }
+      .wraper .price-clean .price .pricer th {
+        background: #1331c7;
+        color: #fff;
+        font: 18px "MuseoRegular", serif; }
+      .wraper .price-clean .price .pricer td {
+        border: solid 1px #f0d36d;
+        font: 16px "MuseoRegular", serif;
+        font-weight: bold; }
+  .wraper .we-work {
+    padding: 0;
+    background: #1c27a2; }
+    .wraper .we-work h2 {
+      font: 42px "MuseoRegular", serif;
+      letter-spacing: 1px;
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #feffff;
+      font-weight: bold;
+      margin-bottom: 0; }
+    .wraper .we-work .we-work-img {
+      width: 80%;
+      margin: 0 auto; }
+      .wraper .we-work .we-work-img .we-work-img-box {
+        margin-top: 25px; }
+        .wraper .we-work .we-work-img .we-work-img-box img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          border: 16px solid #fff; }
+    .wraper .we-work .faq {
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 40px;
+      padding-top: 80px; }
+      .wraper .we-work .faq ul {
+        display: block;
+        padding: 0;
+        padding-top: 15px; }
+        .wraper .we-work .faq ul li {
+          font: 16px "MuseoRegular", sans-serif;
+          color: #fff;
+          display: block;
+          width: 100%;
+          background: url("../img/bcg_down.jpg");
+          background-size: cover;
+          height: 38px;
+          border-radius: 10px;
+          line-height: 38px;
+          text-indent: 15px;
+          margin-top: 15px; }
+          .wraper .we-work .faq ul li:after {
+            content: "";
+            float: right;
+            margin-right: 15px;
+            background: url(../img/r_arr.png);
+            display: block;
+            width: 20px;
+            background-size: contain;
+            height: 20px;
+            background-repeat: no-repeat;
+            margin-top: 13px;
+            cursor: pointer; }
+  .wraper .deal {
+    background: #fff;
+    padding-bottom: 65px; }
+    .wraper .deal .take_a_call {
+      width: 80%;
+      margin: 0 auto; }
+      .wraper .deal .take_a_call h2 {
+        font: 32px "MuseoSansRegular", serif;
+        height: 51px;
+        line-height: 51px;
+        text-align: center;
+        color: #000000;
+        font-weight: 900;
+        margin-top: 35px;
+        margin-bottom: 15px; }
+      .wraper .deal .take_a_call h3 {
+        font: 22px "MuseoSansRegular", serif;
+        font-weight: 900;
+        color: #000;
+        text-align: center;
+        margin-top: 10px; }
+      .wraper .deal .take_a_call .f-box {
+        background: url("../img/bg1113.png");
+        display: block;
+        height: 100px;
+        background-size: cover;
+        position: relative; }
+        .wraper .deal .take_a_call .f-box input, .wraper .deal .take_a_call .f-box button {
+          height: 46px;
+          top: 27px;
+          margin: 0 1.66%;
+          width: 30%; }
+        .wraper .deal .take_a_call .f-box button {
+          background: #1c27a2;
+          border: none;
+          color: #fff;
+          font: 15px "MuseoSansRegular", serif;
+          font-weight: bold; }
+  .wraper footer.footer .social {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 90px;
+    margin: 0 auto; }
+    .wraper footer.footer .social li {
+      padding: 0;
+      margin: 0;
+      display: block;
+      float: left; }
+      .wraper footer.footer .social li a {
+        display: block;
+        background: #f00;
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-top: 40px; }
+      .wraper footer.footer .social li .fb {
+        background: url("../img/fb.png");
+        background-size: cover; }
+      .wraper footer.footer .social li .vk {
+        background: url("../img/vk.png");
+        background-size: cover; }
+      .wraper footer.footer .social li .ig {
+        background: url("../img/in.png");
+        background-size: cover; }
+  .wraper footer.footer .phones {
+    padding-left: 0;
+    margin-left: -18px; }
+    .wraper footer.footer .phones .tele, .wraper footer.footer .phones .wraper .footer .phones .tele {
+      margin-left: -14px; }
 
 @media screen and (max-width: 1220px) {
+  .wraper .what-we-do .we-can {
+    padding-bottom: 25px; }
+  .wraper .what-we-do .second-we-can {
+    margin-top: 0; }
   .wraper .main .rec {
     background: none;
     width: 90%;
@@ -386,8 +612,46 @@
         margin: 5px auto;
         display: inline-block;
         margin-left: 30px; } }
-@media screen and (max-width: 1024px) {
-  body {
-    display: none !important; } }
+.wraper .what-we-do .second-we-can {
+  margin-top: 0; }
+.wraper .what-we-do .we-can .job {
+  margin-top: 5px; }
+
+.wraper .achivments .ach-icons span {
+  font-size: 12px; }
+
+.wraper .main .rec .message {
+  bottom: -63px; }
+.wraper .main .rec .tezis li {
+  font-size: 12px; }
+.wraper .main .rec .tezis li:nth-child(3) {
+  font-size: 12px;
+  height: 55px; }
+.wraper .main .rec .tezis li:nth-child(2) {
+  font-size: 12px;
+  line-height: 19px; }
+.wraper .main .rec .tezis li:nth-child(1) {
+  height: 55px; }
+.wraper .main .rec .tezis li:nth-child(4) {
+  height: 55px;
+  line-height: 21px; }
+
+.wraper .clients .leave-recall {
+  margin: 0;
+  width: 100%; }
+
+.wraper .proff_staff h2 {
+  height: auto; }
+.wraper .proff_staff .staffs .staff {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  .wraper .proff_staff .staffs .staff span {
+    font: 15px "Arial", sans-serif;
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px; }
 
 /*# sourceMappingURL=styles.css.map */
