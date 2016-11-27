@@ -260,14 +260,15 @@
   .wraper .clients {
     padding: 0 10%; }
     .wraper .clients h2 {
-      font: 34px "MuseoRegular", serif;
+      font: 42px "MuseoRegular", serif;
       height: 51px;
       line-height: 51px;
       text-align: center;
       color: #000000;
       font-weight: bold;
       margin-top: 35px;
-      margin-bottom: 35px; }
+      margin-bottom: 35px;
+      text-shadow: 1px 1px 0; }
     .wraper .clients .our_clients {
       padding: 0 25px 0 0;
       height: 100%;
@@ -359,7 +360,8 @@
         font-weight: bold; }
     .wraper .clients .book {
       width: 80%;
-      margin: 40px auto; }
+      margin: 40px auto;
+      margin-bottom: -15px; }
       .wraper .clients .book .book_b img {
         display: block;
         margin: 0 auto;
@@ -376,7 +378,8 @@
     padding-right: 0;
     width: 100%; }
     .wraper .how_do_we_work h2 {
-      font: 23px "MuseoRegular", serif;
+      font: 42px "MuseoRegular", serif;
+      text-shadow: 1px 1px 0;
       background: url("../img/h2bck2.png");
       height: 51px;
       line-height: 51px;
@@ -443,7 +446,8 @@
   .wraper .price-clean {
     width: 80%; }
     .wraper .price-clean h2 {
-      font: 34px "MuseoRegular", serif;
+      font: 42px "MuseoRegular", serif;
+      text-shadow: 1px 1px 0;
       height: 51px;
       line-height: 51px;
       text-align: center;
@@ -473,6 +477,7 @@
     background: #1c27a2; }
     .wraper .we-work h2 {
       font: 42px "MuseoRegular", serif;
+      text-shadow: 1px 1px 0;
       letter-spacing: 1px;
       height: 51px;
       line-height: 51px;
@@ -530,7 +535,8 @@
       width: 80%;
       margin: 0 auto; }
       .wraper .deal .take_a_call h2 {
-        font: 32px "MuseoSansRegular", serif;
+        font: 42px "MuseoRegular", serif;
+        text-shadow: 1px 1px 0;
         height: 51px;
         line-height: 51px;
         text-align: center;
@@ -723,6 +729,9 @@
   .wraper footer.footer .phones {
     padding-left: 0;
     margin-left: 0;
-    margin-right: 5%; } }
+    margin-right: 5%; }
+
+  .wraper .header .logo, .wraper .footer .logo {
+    padding-left: 2%; } }
 
 /*# sourceMappingURL=styles.css.map */
