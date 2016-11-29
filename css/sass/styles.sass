@@ -1,5 +1,5 @@
 @import "bourbon/bourbon"
-
+$h2: 32px
 .wraper
 	width: 100%
 	padding: 0 !important
@@ -170,6 +170,9 @@
 		.ach-icons
 			height: 157px
 			margin-top: -60px
+			img
+				display: block
+				margin: 0 auto
 			span
 				font: 16px "Arial", sans-serif
 				color: #002a4a
@@ -181,7 +184,7 @@
 		padding-right: 0
 		padding-left: 0
 		h2
-			font: 23px "MuseoRegular", serif 
+			font: $h2 "MuseoBold", serif 
 			background: url("../img/h2bck2.png")
 			height: 51px
 			line-height: 51px
@@ -201,7 +204,7 @@
 	.proff_staff
 		background: #1c27a2
 		h2
-			font: 23px "MuseoRegular", serif 
+			font: $h2 "MuseoBold", serif 
 			height: 51px
 			line-height: 51px
 			text-align: center
@@ -254,7 +257,7 @@
 	.clients
 		padding: 0 10%
 		h2
-			font: 42px "MuseoRegular", serif 
+			font: $h2 "MuseoBold", serif 
 			height: 51px
 			line-height: 51px
 			text-align: center
@@ -262,7 +265,6 @@
 			font-weight: bold
 			margin-top: 35px
 			margin-bottom: 35px
-			text-shadow: 1px 1px 0
 		.our_clients
 			padding: 0 25px 0 0
 			height: 100%
@@ -375,9 +377,9 @@
 		padding-right: 0
 		width: 100%
 		h2
-			font: 42px "MuseoRegular", serif 
-			text-shadow: 1px 1px 0
+			font: $h2 "MuseoBold", serif 
 			background: url("../img/h2bck2.png")
+			text-transform: uppercase
 			height: 51px
 			line-height: 51px
 			text-align: center
@@ -455,8 +457,7 @@
 	.price-clean
 		width: 80%
 		h2
-			font: 42px "MuseoRegular", serif 
-			text-shadow: 1px 1px 0
+			font: $h2 "MuseoBold", serif 
 			height: 51px
 			line-height: 51px
 			text-align: center
@@ -486,8 +487,7 @@
 		padding: 0
 		background: #1c27a2
 		h2
-			font: 42px "MuseoRegular", serif
-			text-shadow: 1px 1px 0
+			font: $h2 "MuseoBold", serif
 			letter-spacing: 1px
 			height: 51px
 			line-height: 51px
@@ -516,7 +516,7 @@
 				padding: 0
 				padding-top: 15px
 				li
-					font: 16px "MuseoRegular", sans-serif
+					font: 16px "MuseoBold", sans-serif
 					color: #fff
 					display: block
 					width: 100%
@@ -546,8 +546,7 @@
 			width: 80%
 			margin: 0 auto
 			h2
-				font: 42px "MuseoRegular", serif 
-				text-shadow: 1px 1px 0
+				font: $h2 "MuseoBold", serif 
 				height: 51px
 				line-height: 51px
 				text-align: center
@@ -658,6 +657,11 @@
 	.footer .logo
 		display: none !important
 @media screen and (max-width: 960px)
+	.wraper .main .rec .desc
+		h1
+			font-size: 24px
+	.wraper .main .rec .desc, .wraper .main .rec .tezis
+		font-size: 24px
 	.wraper .header .phones .tele
 		padding-left: 0 !important
 	.wraper
@@ -758,4 +762,173 @@
 		margin-right: 5%
 	.wraper .header .logo, .wraper .footer .logo
 		padding-left: 2%
-@media screen and (min-width: 768px)
+@media screen and (max-width: 767px)
+	.wraper .header .logo img
+		display: block
+		height: 100px
+		padding-top: 13px
+		margin: 0 auto
+	.wraper
+		.header, .footer
+			height: 100%
+			padding-bottom: 18px
+			.name .slogan
+				width: 100%
+				font-size: 28px
+			.time
+				display: none
+			.phones
+				padding-left: 0
+				.tele, .teleR
+					width: 100%
+					padding: 0
+					margin: 0
+					a
+						text-align: center
+						font: 28px "MuseoRegular", serif
+		.main
+			background-size: cover
+			.rec
+				.desc
+					font-size: 32px
+					text-align: center
+					font-weight: bold
+				.tezis
+					padding: 0
+					margin: 0
+					float: none
+					position: static
+					margin-top: 45px
+					display: none
+					li
+						background: none
+						padding: 0
+						margin: 0
+						float: none
+						position: static
+						font-size: 16px
+		.achivments
+			.ach-icons
+				height: auto
+				.achivment
+					img
+						margin: 0 auto 
+				.desc_ach
+					padding: 15px 0
+					font-size: 25px
+		.what-we-do
+			width: 100%
+			h2
+				height: auto
+			.we-can
+				span
+					font-size: 18px
+				.job
+					margin-top: 25px
+		.proff_staff
+			width: 100%
+			.staffs
+				h2
+					margin: 0
+					padding: 10px 0
+					font-size: 18px
+					line-height: 25px
+
+	.wraper .main .rec .message 
+		bottom: 0
+		width: 100%
+		position: absolute
+		left: 0
+
+	.wraper .clients .book
+		display: none
+	.price
+		
+	.wraper .proff_staff
+		background: #1c27a2
+		overflow: hidden
+	.wraper .main .rec .message input, .wraper .main .rec .message button 
+		margin-left: 0
+		margin: 0 auto
+		width: 100%
+		display: block
+		margin-top: 10px
+	.wraper .footer
+		height: 100%
+		.name
+			.slogan
+				width: 100%
+		.phone ul.social
+			float: none
+			margin-bottom: 25px
+			li
+				a
+					margin: 15px auto
+					
+	.wraper footer.footer .phones .tele, .wraper footer.footer .phones .wraper .footer .phones .tele
+		margin: 0
+	.wraper .price-clean h2
+		margin-bottom: 25px
+		display: block 
+		height: 100%
+	.wraper .bef-aft .eff
+		border-bottom: 3px solid #fff
+		padding-bottom: 30px
+@media screen and (max-width: 599px)
+	.wraper
+		.price
+			
+		.chuvak
+			display: none !important
+		.main
+			background: url("../img/background-small.jpg")
+		.clients
+			padding: 0
+		.recall .bredcrambs
+			position: static
+		.clients .recall
+			padding-bottom: 10px
+		.clients .recall .bredcrambs li
+			margin-bottom: 10px
+	.wraper .clients .recall .bredcrambs
+		position: static
+	.wraper .clients .our_clients
+		padding: 0
+	.wraper .we-work .we-work-img .we-work-img-box img
+		width: 300px
+	.wraper .how_do_we_work h2
+		height: 100%
+	.wraper .we-work h2
+		height: 100%
+	.wraper .we-work .faq ul li
+		font: 17px "MuseoBold", sans-serif
+		color: #fff
+		display: block
+		width: 100%
+		background: url(../img/bcg_down.jpg)
+		background-size: cover
+		height: 100%
+		border-radius: 10px
+		line-height: 38px
+		text-indent: 0
+		margin-top: 15px
+		padding: 30px
+	.wraper .deal .take_a_call h2
+		height: 100%
+	.wraper .deal .take_a_call
+		width: 100%
+	.wraper .deal .take_a_call .f-box
+		width: 100%
+	.pricer tr th:last-child, .pricer tr td:last-child
+		display: none
+	.wraper .price-clean
+		width: 100%
+	.wraper .price-clean .price .pricer th, .wraper .price-clean .price .pricer td
+		font-size: 14px
+	.wraper .clients .recall
+		height: 100%
+	.wraper .we-work .we-work-img .we-work-img-box img
+		border: 6px solid #fff
+	.wraper .what-we-do h2
+		padding: 0 15px
+	

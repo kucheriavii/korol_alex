@@ -1,0 +1,919 @@
+.wraper {
+  width: 100%;
+  padding: 0 !important;
+  position: relative;
+  max-width: 1440px; }
+  .wraper .header, .wraper .footer {
+    height: 110px;
+    background: url("../img/bg-template.jpg");
+    background-color: #1231c7;
+    background-image: -webkit-linear-gradient(top, #1231c7 0%, #1F3BC5 100%);
+    background-image: linear-gradient(to bottom,#1231c7 0%, #1F3BC5 100%);
+    width: 100%; }
+    .wraper .header .logo, .wraper .footer .logo {
+      padding-left: 11%;
+      height: 100%; }
+      .wraper .header .logo img, .wraper .footer .logo img {
+        display: block;
+        height: 80%;
+        padding-top: 13px; }
+    .wraper .header .name img, .wraper .footer .name img {
+      display: block;
+      width: 100px;
+      margin: 30px auto 0; }
+    .wraper .header .name .slogan, .wraper .footer .name .slogan {
+      color: #fff;
+      font: 15px "MuseoSansRegular", sans-serif;
+      padding-top: 10px;
+      display: inline-block;
+      text-align: center; }
+    .wraper .header .phones, .wraper .footer .phones {
+      padding-left: 90px;
+      padding-right: 0%; }
+      .wraper .header .phones img, .wraper .footer .phones img {
+        position: absolute;
+        left: 110px;
+        top: 30px; }
+      .wraper .header .phones ul, .wraper .footer .phones ul {
+        display: block;
+        margin: 0;
+        padding: 10px 0 0 20px;
+        font: 17px "MuseoSansRegular", sans-serif;
+        padding-top: 17px; }
+        .wraper .header .phones ul li, .wraper .footer .phones ul li {
+          display: block;
+          margin-top: 5px;
+          cursor: pointer;
+          padding: 0; }
+          .wraper .header .phones ul li a, .wraper .footer .phones ul li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #fff; }
+      .wraper .header .phones .tele, .wraper .footer .phones .tele {
+        float: left;
+        margin-left: 40px; }
+        .wraper .header .phones .tele:before, .wraper .footer .phones .tele:before {
+          content: "";
+          display: none;
+          background: url(../img/phone1.png);
+          width: 32px;
+          height: 45px;
+          margin-left: -67px;
+          float: left;
+          margin-top: 16px; }
+      .wraper .header .phones .teleR, .wraper .footer .phones .teleR {
+        float: left; }
+    .wraper .header .time, .wraper .footer .time {
+      width: 46px; }
+      .wraper .header .time img, .wraper .footer .time img {
+        position: absolute;
+        display: block;
+        height: 46px;
+        width: 46px;
+        top: 30px; }
+  .wraper .main {
+    background: url("../img/background.jpg");
+    background-position: 0 50%;
+    height: 589px;
+    width: 100%;
+    position: relative;
+    overflow: hidden; }
+    .wraper .main .chuvak {
+      background: url("../img/chuvak.png");
+      height: 409px;
+      position: absolute;
+      top: 135px;
+      left: 230px;
+      width: 275px; }
+    .wraper .main .rec {
+      background: url(../img/rec.png);
+      background-repeat: no-repeat;
+      width: 80%;
+      height: 73%;
+      position: absolute;
+      top: 5%;
+      left: 10%; }
+      .wraper .main .rec .desc {
+        padding-left: 26px;
+        font: 26px "MuseoSansRegular";
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+        .wraper .main .rec .desc span {
+          color: #eab53d; }
+      .wraper .main .rec .tezis {
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 53.5%; }
+        .wraper .main .rec .tezis li:nth-child(2), .wraper .main .rec .tezis li:nth-child(4) {
+          line-height: 40px; }
+        .wraper .main .rec .tezis li {
+          display: block;
+          content: "";
+          width: 44px;
+          background: url(../img/sprite.png);
+          background-repeat: no-repeat;
+          height: 38px;
+          display: block;
+          width: 80%;
+          text-transform: uppercase;
+          padding-left: 10px;
+          line-height: 20px;
+          margin-top: 15px;
+          padding-left: 60px; }
+        .wraper .main .rec .tezis li:nth-child(2) {
+          background-position: 0px -54px;
+          height: 43px; }
+        .wraper .main .rec .tezis li:nth-child(3) {
+          background-position: 0px -111px;
+          height: 43px; }
+        .wraper .main .rec .tezis li:nth-child(4) {
+          background-position: 0px -165px;
+          height: 43px; }
+    .wraper .main .message {
+      display: block;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      left: 53.5%;
+      bottom: 5%; }
+      .wraper .main .message input {
+        width: 90%;
+        margin-top: 5px;
+        box-radius: 1px;
+        border-radius: 5px;
+        border: 2px solid #afadad;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        max-width: 410px; }
+        .wraper .main .message input::-webkit-input-placeholder {
+          text-align: center;
+          text-transform: uppercase; }
+        .wraper .main .message input::-moz-placeholder {
+          text-align: center;
+          text-transform: uppercase; }
+        .wraper .main .message input:-moz-placeholder {
+          text-align: center;
+          text-transform: uppercase; }
+        .wraper .main .message input:-ms-input-placeholder {
+          text-align: center;
+          text-transform: uppercase; }
+      .wraper .main .message button {
+        margin-top: 5px;
+        background: #fbcd84;
+        width: 90%;
+        box-radius: 1px;
+        border-radius: 5px;
+        border: 2px solid #afadad;
+        height: 30px;
+        line-height: 27px;
+        text-transform: uppercase;
+        max-width: 410px; }
+  .wraper .achivments {
+    width: 100%;
+    position: relative; }
+    .wraper .achivments .ach-icons {
+      height: 157px;
+      margin-top: -60px; }
+      .wraper .achivments .ach-icons img {
+        display: block;
+        margin: 0 auto; }
+      .wraper .achivments .ach-icons span {
+        font: 16px "Arial", sans-serif;
+        color: #002a4a;
+        text-align: center;
+        display: block;
+        font-weight: bold; }
+  .wraper .what-we-do {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0; }
+    .wraper .what-we-do h2 {
+      font: 32px "MuseoBold", serif;
+      background: url("../img/h2bck2.png");
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #feffff;
+      font-weight: bold; }
+    .wraper .what-we-do .we-can {
+      width: 90%;
+      margin: 35px auto 0; }
+      .wraper .what-we-do .we-can img {
+        margin: 0 auto 10px; }
+      .wraper .what-we-do .we-can span {
+        font: 12px "Arial", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        display: block; }
+  .wraper .proff_staff {
+    background: #1c27a2; }
+    .wraper .proff_staff h2 {
+      font: 32px "MuseoBold", serif;
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #feffff;
+      font-weight: bold; }
+    .wraper .proff_staff .staffs {
+      width: 80%;
+      margin: 0 auto; }
+      .wraper .proff_staff .staffs .staff {
+        margin-top: 50px;
+        margin-bottom: 30px; }
+        .wraper .proff_staff .staffs .staff img {
+          display: block;
+          margin: 0 auto;
+          height: 129px; }
+        .wraper .proff_staff .staffs .staff span {
+          font: 16px "Arial", sans-serif;
+          color: #fff;
+          text-align: center;
+          display: block;
+          width: 250px;
+          margin: 0 auto; }
+  .wraper .bef-aft {
+    background: url("../img/bg_med.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 10000px 560px 100px rgba(0, 0, 0, 0.6);
+    padding: 0 10%; }
+    .wraper .bef-aft .eff {
+      height: 100%;
+      margin: 30px auto; }
+      .wraper .bef-aft .eff .before {
+        display: block;
+        width: 100%;
+        border: 1px solid #fff; }
+      .wraper .bef-aft .eff .after {
+        display: block;
+        width: 100%;
+        border: 1px solid #fff; }
+      .wraper .bef-aft .eff .arr {
+        display: block;
+        height: 50px;
+        width: 50px;
+        background: url("../img/arrow_down.png");
+        height: 70px;
+        width: 55px;
+        margin: 20px auto; }
+  .wraper .clients {
+    padding: 0 10%; }
+    .wraper .clients h2 {
+      font: 32px "MuseoBold", serif;
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #000000;
+      font-weight: bold;
+      margin-top: 35px;
+      margin-bottom: 35px; }
+    .wraper .clients .our_clients {
+      padding: 0 25px 0 0;
+      height: 100%;
+      overflow: hidden; }
+    .wraper .clients .recall {
+      background: url("../img/bg1111.png");
+      background-size: cover;
+      height: 480px;
+      overflow: auto; }
+      .wraper .clients .recall .recalls {
+        display: block;
+        padding: 0; }
+        .wraper .clients .recall .recalls li:last-child .mess {
+          border: none; }
+        .wraper .clients .recall .recalls li {
+          display: block;
+          position: relative;
+          padding-left: 25px;
+          padding-right: 25px;
+          padding-top: 25px; }
+          .wraper .clients .recall .recalls li .name {
+            font: 14px "MuseoRegular", serif;
+            color: #fff;
+            margin-bottom: 15px;
+            display: block; }
+          .wraper .clients .recall .recalls li .date {
+            position: absolute;
+            right: 25px;
+            top: 25px;
+            color: #fff;
+            font: 14px "MuseoRegular", serif; }
+          .wraper .clients .recall .recalls li .mess {
+            font: 15px "Arial", sans-serif;
+            font-style: italic;
+            line-height: 22px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 12px; }
+      .wraper .clients .recall .bredcrambs {
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 25px;
+        left: 25px; }
+        .wraper .clients .recall .bredcrambs li:hover {
+          background: #1c27a2;
+          cursor: pointer; }
+        .wraper .clients .recall .bredcrambs li {
+          display: block;
+          font: 16px "MuseoSansRegular", "Arial", sans-serif;
+          float: left;
+          height: 36px;
+          width: 36px;
+          border: 1px solid #FFF;
+          text-align: center;
+          line-height: 36px;
+          margin-right: 20px;
+          color: #fff; }
+          .wraper .clients .recall .bredcrambs li a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            text-decoration: none; }
+    .wraper .clients .leave-recall {
+      height: 480px;
+      background: url(../img/leave_bg.png);
+      float: right;
+      margin-right: -25px;
+      background-size: cover; }
+      .wraper .clients .leave-recall h2.lr {
+        color: #fff;
+        margin-bottom: 0px;
+        font-size: 28px; }
+      .wraper .clients .leave-recall input, .wraper .clients .leave-recall textarea, .wraper .clients .leave-recall button {
+        width: 90%;
+        display: block;
+        margin: 15px auto;
+        height: 45px;
+        font: 17px "Arial", sans-serif;
+        line-height: 45px;
+        padding-left: 10px; }
+      .wraper .clients .leave-recall textarea {
+        height: 150px; }
+      .wraper .clients .leave-recall button {
+        background: #1c27a2;
+        font: 18px "MuseoSansRegular", sans-serif;
+        color: #fff;
+        font-weight: bold; }
+    .wraper .clients .book {
+      width: 80%;
+      margin: 40px auto;
+      margin-bottom: -15px; }
+      .wraper .clients .book .book_b img {
+        display: block;
+        margin: 0 auto;
+        padding-left: 27px; }
+      .wraper .clients .book .arr_up img, .wraper .clients .book .arr_down img {
+        display: block;
+        margin-top: 30px; }
+      .wraper .clients .book .arr_up img {
+        margin-left: 15px; }
+      .wraper .clients .book .arr_down img {
+        margin-left: -40px; }
+  .wraper .how_do_we_work {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%; }
+    .wraper .how_do_we_work h2 {
+      font: 32px "MuseoBold", serif;
+      background: url("../img/h2bck2.png");
+      text-transform: uppercase;
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #feffff;
+      font-weight: bold; }
+    .wraper .how_do_we_work .proc {
+      display: block;
+      padding: 0;
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden; }
+      .wraper .how_do_we_work .proc li:last-child:after {
+        display: none; }
+      .wraper .how_do_we_work .proc li:nth-child(1) img {
+        padding-top: 8px;
+        width: 60%; }
+      .wraper .how_do_we_work .proc li:nth-child(3) img {
+        padding-top: 11px; }
+      .wraper .how_do_we_work .proc li:nth-child(4) img {
+        margin-top: -3px; }
+      .wraper .how_do_we_work .proc li:nth-child(5) img {
+        padding-top: 34px;
+        width: 64%; }
+      .wraper .how_do_we_work .proc li:nth-child(3) span {
+        margin-top: 22px; }
+      .wraper .how_do_we_work .proc li {
+        display: block;
+        padding: 0;
+        position: relative;
+        overflow: hidden; }
+        .wraper .how_do_we_work .proc li .imagebox {
+          height: 120px; }
+          .wraper .how_do_we_work .proc li .imagebox img {
+            display: block;
+            margin: 0 auto; }
+        .wraper .how_do_we_work .proc li span {
+          display: block;
+          margin-top: 25px;
+          text-align: center;
+          padding: 0 5px;
+          margin-left: -10px;
+          font: 14px "Arial", sans-serif;
+          font-weight: bold; }
+    .wraper .how_do_we_work .proc-desc {
+      display: block;
+      margin: 0;
+      padding: 0;
+      width: 80%;
+      margin: 0 auto; }
+      .wraper .how_do_we_work .proc-desc li {
+        display: block;
+        margin: 0;
+        padding: 0 5px;
+        text-align: center; }
+        .wraper .how_do_we_work .proc-desc li span {
+          display: block;
+          margin-top: 25px;
+          text-align: center;
+          padding: 0 5px;
+          margin-left: -10px;
+          font: 14px "Arial", sans-serif;
+          font-weight: bold; }
+  .wraper .price-clean {
+    width: 80%; }
+    .wraper .price-clean h2 {
+      font: 32px "MuseoBold", serif;
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #000000;
+      font-weight: bolder;
+      margin-top: 35px;
+      margin-bottom: 35px; }
+    .wraper .price-clean .price .pricer {
+      width: 100%;
+      border: 3px solid #f0d36d;
+      margin-bottom: 20px;
+      border-top: none; }
+      .wraper .price-clean .price .pricer th, .wraper .price-clean .price .pricer td {
+        height: 50px;
+        border: solid 1px #f0d36d;
+        text-align: center; }
+      .wraper .price-clean .price .pricer th {
+        background: #1331c7;
+        color: #fff;
+        font: 18px "MuseoRegular", serif; }
+      .wraper .price-clean .price .pricer td {
+        border: solid 1px #f0d36d;
+        font: 16px "MuseoRegular", serif;
+        font-weight: bold; }
+  .wraper .we-work {
+    padding: 0;
+    background: #1c27a2; }
+    .wraper .we-work h2 {
+      font: 32px "MuseoBold", serif;
+      letter-spacing: 1px;
+      height: 51px;
+      line-height: 51px;
+      text-align: center;
+      color: #feffff;
+      font-weight: bold;
+      margin-bottom: 0; }
+    .wraper .we-work .we-work-img {
+      width: 80%;
+      margin: 0 auto; }
+      .wraper .we-work .we-work-img .we-work-img-box {
+        margin-top: 25px; }
+        .wraper .we-work .we-work-img .we-work-img-box img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          border: 16px solid #fff; }
+    .wraper .we-work .faq {
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 40px;
+      padding-top: 80px; }
+      .wraper .we-work .faq ul {
+        display: block;
+        padding: 0;
+        padding-top: 15px; }
+        .wraper .we-work .faq ul li {
+          font: 16px "MuseoBold", sans-serif;
+          color: #fff;
+          display: block;
+          width: 100%;
+          background: url("../img/bcg_down.jpg");
+          background-size: cover;
+          height: 38px;
+          border-radius: 10px;
+          line-height: 38px;
+          text-indent: 15px;
+          margin-top: 15px; }
+          .wraper .we-work .faq ul li:after {
+            content: "";
+            float: right;
+            margin-right: 15px;
+            background: url(../img/r_arr.png);
+            display: block;
+            width: 20px;
+            background-size: contain;
+            height: 20px;
+            background-repeat: no-repeat;
+            margin-top: 13px;
+            cursor: pointer; }
+  .wraper .deal {
+    background: #fff;
+    padding-bottom: 65px; }
+    .wraper .deal .take_a_call {
+      width: 80%;
+      margin: 0 auto; }
+      .wraper .deal .take_a_call h2 {
+        font: 32px "MuseoBold", serif;
+        height: 51px;
+        line-height: 51px;
+        text-align: center;
+        color: #000000;
+        font-weight: 900;
+        margin-top: 35px;
+        margin-bottom: 15px; }
+      .wraper .deal .take_a_call h3 {
+        font: 22px "MuseoSansRegular", serif;
+        font-weight: 900;
+        color: #000;
+        text-align: center;
+        margin-top: 10px; }
+      .wraper .deal .take_a_call .f-box {
+        background: url("../img/bg1113.png");
+        display: block;
+        height: 100px;
+        background-size: cover;
+        position: relative; }
+        .wraper .deal .take_a_call .f-box input, .wraper .deal .take_a_call .f-box button {
+          height: 46px;
+          top: 27px;
+          margin: 0 1.66%;
+          width: 30%; }
+        .wraper .deal .take_a_call .f-box button {
+          background: #1c27a2;
+          border: none;
+          color: #fff;
+          font: 15px "MuseoSansRegular", serif;
+          font-weight: bold; }
+  .wraper footer.footer .social {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 90px;
+    margin: 0 auto; }
+    .wraper footer.footer .social li {
+      padding: 0;
+      margin: 0;
+      display: block;
+      float: left; }
+      .wraper footer.footer .social li a {
+        display: block;
+        background: #f00;
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-top: 40px; }
+      .wraper footer.footer .social li .fb {
+        background: url("../img/fb.png");
+        background-size: cover; }
+      .wraper footer.footer .social li .vk {
+        background: url("../img/vk.png");
+        background-size: cover; }
+      .wraper footer.footer .social li .ig {
+        background: url("../img/in.png");
+        background-size: cover; }
+  .wraper footer.footer .phones {
+    padding-left: 0;
+    margin-left: -18px; }
+    .wraper footer.footer .phones .tele, .wraper footer.footer .phones .wraper .footer .phones .tele {
+      margin-left: -14px; }
+
+@media screen and (max-width: 1220px) {
+  .wraper .what-we-do .we-can {
+    padding-bottom: 25px; }
+  .wraper .what-we-do .second-we-can {
+    margin-top: 0; }
+  .wraper .main .rec {
+    background: none;
+    width: 90%;
+    left: 5%; }
+    .wraper .main .rec .desc, .wraper .main .rec .tezis {
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 4px; }
+    .wraper .main .rec .tezis li {
+      margin: 15px auto; }
+    .wraper .main .rec .message {
+      bottom: -10px; }
+      .wraper .main .rec .message input, .wraper .main .rec .message button {
+        margin: 5px auto;
+        display: inline-block;
+        margin-left: 30px; } }
+@media screen and (max-width: 1023px) {
+  .wraper .header .phones ul, .wraper .footer .phones ul {
+    font-size: 14px; }
+
+  .wraper .clients .book .arr_down, .wraper .clients .book .arr_up {
+    display: none; }
+
+  .wraper .we-work .we-work-img .we-work-img-box img {
+    width: 80%;
+    margin: 0 auto; }
+
+  .wraper .deal .take_a_call .f-box input, .wraper .deal .take_a_call .f-box button {
+    width: 29%; }
+
+  .wraper .footer .phone ul {
+    float: right; }
+
+  .footer .logo {
+    display: none !important; } }
+@media screen and (max-width: 960px) {
+  .wraper .main .rec .desc h1 {
+    font-size: 24px; }
+
+  .wraper .main .rec .desc, .wraper .main .rec .tezis {
+    font-size: 24px; }
+
+  .wraper .header .phones .tele {
+    padding-left: 0 !important; }
+
+  .wraper .what-we-do .second-we-can {
+    margin-top: 0; }
+  .wraper .what-we-do .we-can .job {
+    margin-top: 5px; }
+
+  .wraper .achivments .ach-icons span {
+    font-size: 12px; }
+
+  .wraper .main .rec .message {
+    bottom: -63px; }
+    .wraper .main .rec .message input, .wraper .main .rec .message button {
+      margin-left: -2px; }
+  .wraper .main .rec .tezis li {
+    font-size: 12px; }
+  .wraper .main .rec .tezis li:nth-child(3) {
+    font-size: 12px;
+    height: 55px; }
+  .wraper .main .rec .tezis li:nth-child(2) {
+    font-size: 12px;
+    line-height: 19px; }
+  .wraper .main .rec .tezis li:nth-child(1) {
+    height: 55px; }
+  .wraper .main .rec .tezis li:nth-child(4) {
+    height: 55px;
+    line-height: 21px; }
+
+  .wraper .clients .leave-recall {
+    margin: 0;
+    width: 100%; }
+
+  .wraper .proff_staff h2 {
+    height: auto; }
+  .wraper .proff_staff .staffs .staff {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .wraper .proff_staff .staffs .staff span {
+      font: 15px "Arial", sans-serif;
+      color: #fff;
+      text-align: center;
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 15px; }
+  .wraper .clients .book .arr_up, .wraper .clients .book .arr_down {
+    display: none; }
+  .wraper .clients .book .book_b {
+    margin-bottom: -15px; }
+    .wraper .clients .book .book_b img {
+      padding: 0; }
+  .wraper .how_do_we_work .proc li .imagebox img {
+    width: auto; }
+
+  .wraper .how_do_we_work, .wraper .price-clean {
+    padding-bottom: 50px; }
+
+  .wraper .we-work .we-work-img .we-work-img-box img {
+    width: auto;
+    margin: 0 auto; }
+
+  .wraper .deal .take_a_call .f-box input, .wraper .deal .take_a_call .f-box button {
+    height: 46px;
+    top: 27px;
+    margin: 0 1.66%;
+    width: 80%;
+    float: none;
+    margin: 13px auto;
+    display: block; }
+
+  .wraper .deal .take_a_call .f-box {
+    height: 250px;
+    top: 27px;
+    margin: 0 1.66%;
+    width: 80%;
+    float: none;
+    margin: 13px auto;
+    display: block; }
+
+  .wraper .header .phones img {
+    display: none; }
+
+  .wraper .header .phones .tele, .wraper .footer .phones .tele {
+    margin-left: 0; }
+
+  .wraper footer.footer .phones {
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 5%; }
+
+  .wraper .header .logo, .wraper .footer .logo {
+    padding-left: 2%; } }
+@media screen and (max-width: 767px) {
+  .wraper .header .logo img {
+    display: block;
+    height: 100px;
+    padding-top: 13px;
+    margin: 0 auto; }
+
+  .wraper .header, .wraper .footer {
+    height: 100%;
+    padding-bottom: 18px; }
+    .wraper .header .name .slogan, .wraper .footer .name .slogan {
+      width: 100%;
+      font-size: 28px; }
+    .wraper .header .time, .wraper .footer .time {
+      display: none; }
+    .wraper .header .phones, .wraper .footer .phones {
+      padding-left: 0; }
+      .wraper .header .phones .tele, .wraper .header .phones .teleR, .wraper .footer .phones .tele, .wraper .footer .phones .teleR {
+        width: 100%;
+        padding: 0;
+        margin: 0; }
+        .wraper .header .phones .tele a, .wraper .header .phones .teleR a, .wraper .footer .phones .tele a, .wraper .footer .phones .teleR a {
+          text-align: center;
+          font: 28px "MuseoRegular", serif; }
+  .wraper .main {
+    background-size: cover; }
+    .wraper .main .rec .desc {
+      font-size: 32px;
+      text-align: center;
+      font-weight: bold; }
+    .wraper .main .rec .tezis {
+      padding: 0;
+      margin: 0;
+      float: none;
+      position: static;
+      margin-top: 45px;
+      display: none; }
+      .wraper .main .rec .tezis li {
+        background: none;
+        padding: 0;
+        margin: 0;
+        float: none;
+        position: static;
+        font-size: 16px; }
+  .wraper .achivments .ach-icons {
+    height: auto; }
+    .wraper .achivments .ach-icons .achivment img {
+      margin: 0 auto; }
+    .wraper .achivments .ach-icons .desc_ach {
+      padding: 15px 0;
+      font-size: 25px; }
+  .wraper .what-we-do {
+    width: 100%; }
+    .wraper .what-we-do h2 {
+      height: auto; }
+    .wraper .what-we-do .we-can span {
+      font-size: 18px; }
+    .wraper .what-we-do .we-can .job {
+      margin-top: 25px; }
+  .wraper .proff_staff {
+    width: 100%; }
+    .wraper .proff_staff .staffs h2 {
+      margin: 0;
+      padding: 10px 0;
+      font-size: 18px;
+      line-height: 25px; }
+
+  .wraper .main .rec .message {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    left: 0; }
+
+  .wraper .clients .book {
+    display: none; }
+
+  .wraper .proff_staff {
+    background: #1c27a2;
+    overflow: hidden; }
+
+  .wraper .main .rec .message input, .wraper .main .rec .message button {
+    margin-left: 0;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    margin-top: 10px; }
+
+  .wraper .footer {
+    height: 100%; }
+    .wraper .footer .name .slogan {
+      width: 100%; }
+    .wraper .footer .phone ul.social {
+      float: none;
+      margin-bottom: 25px; }
+      .wraper .footer .phone ul.social li a {
+        margin: 15px auto; }
+
+  .wraper footer.footer .phones .tele, .wraper footer.footer .phones .wraper .footer .phones .tele {
+    margin: 0; }
+
+  .wraper .price-clean h2 {
+    margin-bottom: 25px;
+    display: block;
+    height: 100%; }
+
+  .wraper .bef-aft .eff {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 30px; } }
+@media screen and (max-width: 599px) {
+  .wraper .chuvak {
+    display: none !important; }
+  .wraper .main {
+    background: url("../img/background-small.jpg"); }
+  .wraper .clients {
+    padding: 0; }
+  .wraper .recall .bredcrambs {
+    position: static; }
+  .wraper .clients .recall {
+    padding-bottom: 10px; }
+  .wraper .clients .recall .bredcrambs li {
+    margin-bottom: 10px; }
+
+  .wraper .clients .recall .bredcrambs {
+    position: static; }
+
+  .wraper .clients .our_clients {
+    padding: 0; }
+
+  .wraper .we-work .we-work-img .we-work-img-box img {
+    width: 300px; }
+
+  .wraper .how_do_we_work h2 {
+    height: 100%; }
+
+  .wraper .we-work h2 {
+    height: 100%; }
+
+  .wraper .we-work .faq ul li {
+    font: 17px "MuseoBold", sans-serif;
+    color: #fff;
+    display: block;
+    width: 100%;
+    background: url(../img/bcg_down.jpg);
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px;
+    line-height: 38px;
+    text-indent: 0;
+    margin-top: 15px;
+    padding: 30px; }
+
+  .wraper .deal .take_a_call h2 {
+    height: 100%; }
+
+  .wraper .deal .take_a_call {
+    width: 100%; }
+
+  .wraper .deal .take_a_call .f-box {
+    width: 100%; }
+
+  .pricer tr th:last-child, .pricer tr td:last-child {
+    display: none; }
+
+  .wraper .price-clean {
+    width: 100%; }
+
+  .wraper .price-clean .price .pricer th, .wraper .price-clean .price .pricer td {
+    font-size: 14px; }
+
+  .wraper .clients .recall {
+    height: 100%; }
+
+  .wraper .we-work .we-work-img .we-work-img-box img {
+    border: 6px solid #fff; }
+
+  .wraper .what-we-do h2 {
+    padding: 0 15px; } }
+
+/*# sourceMappingURL=styles.css.map */

@@ -2,11 +2,11 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ru"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Професійний клінінг у Києві та області</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -27,10 +27,10 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="wraper container-fluid">
       <div class="header container-fluid">
-        <div class="logo col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <div class="logo col-lg-3 col-md-3 col-sm-3 col-xs-12">
           <img src="img/logo.png" alt="logo">
         </div>
-        <div class="name col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <div class="name col-lg-3 col-md-3 col-sm-3 col-xs-12">
           <img src="img/log_in.png" alt="logotype">
           <span class="slogan">Професійний клінінг у Києві та області</span>
         </div>
@@ -41,13 +41,13 @@
           <div class="phones">
             <img src="img/phone1.png" alt="phone">
             <ul class="tele">
-              <li><a tel="+380442285847">(044) 228-58-47</a></li>
-              <li><a tel="+380639424037">(063) 942-40-37</a></li>
-              <li><a tel="+380445036477">(044) 503-64-77</a></li>
+              <li><a href="tel:+380442285847">(044) 228-58-47</a></li>
+              <li><a href="tel:+380639424037">(063) 942-40-37</a></li>
+              <li><a href="tel:+380445036477">(044) 503-64-77</a></li>
             </ul>
             <ul class="teleR">
-              <li><a tel="+380681400467">(068) 140-04-67</a></li>
-              <li><a mailto="info@koroli.com.ua">info@koroli.com.ua</a></li>
+              <li><a href="tel:+380681400467">(068) 140-04-67</a></li>
+              <li><a href="mailto:info@koroli.com.ua">info@koroli.com.ua</a></li>
             </ul>
           </div>
         </div>
@@ -57,18 +57,18 @@
         <div class="chuvak"></div>
         <div class="rec">
           <div class="info-box">
-            <h1 class="desc">Уборка помещений после ремонта <span>под ключ!</span></h1>
+            <h1 class="desc">Прибирання приміщень після ремонту <span>під ключ!</span></h1>
             <ul class="tezis">
-              <li>Простой расчеи стоимости уборки по площади</li>
-              <li>Работаем в Киеве и области</li>
-              <li>Первокласные специалисты с опытом работы от 2-х лет</li>
-              <li>Выполним уборку в течении дня</li>
+              <li>Зручний розрахунок вартості прибирання за площею</li>
+              <li>Працюємо в Києві та області</li>
+              <li>Першокласні спеціалісти з досвідом роботи від 2-х років</li>
+              <li>Виконаємо прибирання на протязі дня</li>
             </ul>
               <div class="message">
-                <form action="">
-                  <input type="text" placeholder="Имя">
+                <form action="#" method="POST" name="send">
+                  <input type="text" placeholder="Імя">
                   <input type="text" placeholder="Телефон">
-                  <button>Получить расчет стоимости</button>
+                  <button>Отримати розрахунок вартості</button>
                 </form>
               </div>
           </div>
@@ -83,31 +83,31 @@
           <div class="achivment col-md-2 col-sm-2">
             <img src="img/absolute.png" class="img-responsive" alt="">
               <span class="desc_ach">
-                Абсолютная очистка всего помещения от пыли или сторительных загрязнений 
+                Абсолютне очищення від пилу чи будівельних забруднень 
               </span>
             </div>
           <div class="achivment col-md-2 col-sm-2">
             <img src="img/clean.png" class="img-responsive" alt="">
               <span class="desc_ach">
-                Полная укомплектованость оборудованием и химией
+                Повне вкомплектування знаряддям та хімією
               </span>
             </div>
           <div class="achivment col-md-2 col-sm-2">
             <img src="img/money.png" class="img-responsive" alt="">
               <span class="desc_ach">
-                Оплата за результат без авансов и скрытых доплат
+                Оплата за результат без авансів та прихованих доплат
               </span>
             </div>
           <div class="achivment col-md-2 col-sm-2">
             <img src="img/tech.png" class="img-responsive" alt="">
               <span class="desc_ach">
-                Профессиональный подбор технологом химии и техники для всех типов поверхностей
+               Профессійний підбір технологом хімії і техніки для всіх типів поверхонь
               </span> 
             </div>
           <div class="achivment col-md-2 col-sm-2">
             <img src="img/safe.png" class="img-responsive" alt="">
               <span class="desc_ach">
-                Мы несем ответственость за сохранность вашего имущества
+                Ми несемо відповідальність за збереження вашого майна
               </span>
             </div>
           <div class="achivment col-md-1 col-sm-1">
@@ -149,7 +149,7 @@
       <!--Before After-->
       <div class="bef-aft container-fluid">
         <div class="row">
-          <div class="eff col-md-3 col-sm-6">
+          <div class="eff col-md-3 col-sm-6 col-sm-6">
             <img src="img/floor_before.jpg" alt="" class="img-responsive before">
             <div class="arr"></div>
             <img src="img/floor_after.jpg" alt="" class="img-responsive after">
@@ -198,23 +198,23 @@
           </div>
             <div class="leave-recall col-md-5 col-sm-12">
               <h2 class="lr">Залишити відгук</h2>
-              <form action="">
+              <form action="rew" method="POST" name="rewF">
                 <input type="text">
                 <input type="email">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="textmass" id="rew1" cols="30" rows="10"></textarea>
                 <button>Відправити</button>
               </form>
             </div>
           </div>
           <div class="book row">
             <div class="arr_up col-md-1"><img src="img/arr_u.png" alt=""></div>
-            <div class="book_b col-md-10 col-sm-12"><img src="img/book.png" alt=""></div>
+            <div class="book_b col-md-10 col-sm-12 col-xs-12"><img src="img/book.png" alt=""></div>
             <div class="arr_down col-md-1"><img src="img/arr_d.png" alt=""></div>
           </div>
         </div>
       <!---end of clients -->
       <div class="how_do_we_work container-fluid">
-        <h2>Как мы рабртаем</h2>
+        <h2>Как мы работаем</h2>
         <ul class="proc">
           <li class="col-md-2 col-sm-2"><div class="imagebox"><img src="img/round.gif" alt="" class="img-responsive"></div><span>1. Ваш звонок или заявка на сайте</span></li>
           <li class="col-md-2 col-sm-2"><div class="imagebox"><img src="img/deesp.gif" alt="" class="img-responsive"></div><span>2. Вияснение всех тонкостей вашего случая</span></li>
@@ -330,10 +330,10 @@
           <h2>Замовте прибирання</h2>
           <h3>Ми перетелефонуєм Вам протягом 3-х хвилин і приймемо замовлення</h3>
           <div class="f-box row">
-            <form action="">
+            <form action="#" name="send2" method="POST">
               <input type="text" class="col-md-4 col-sm-12 b-name" placeholder="Ваше ім'я">
               <input type="text" class="col-md-4 col-sm-12 b-phone" placeholder="Ваш телефон">
-              <button type="text" class="col-md-4 col-sm-12 b-button">Замовити</button>
+              <button class="col-md-4 col-sm-12 b-button">Замовити</button>
             </form>
           </div>
         </div>
@@ -362,13 +362,13 @@
             <div class="phones">
               
               <ul class="tele">
-                <li><a tel="+380442285847">(044) 228-58-47</a></li>
-                <li><a tel="+380639424037">(063) 942-40-37</a></li>
-                <li><a tel="+380445036477">(044) 503-64-77</a></li>
+                <li><a href="tel:+380442285847">(044) 228-58-47</a></li>
+                <li><a href="tel:+380639424037">(063) 942-40-37</a></li>
+                <li><a href="tel:+380445036477">(044) 503-64-77</a></li>
               </ul>
               <ul class="teleR">
-                <li><a tel="+380681400467">(068) 140-04-67</a></li>
-                <li><a mailto="info@koroli.com.ua">info@koroli.com.ua</a></li>
+                <li><a href="tel:+380681400467">(068) 140-04-67</a></li>
+                <li><a href="mailto:info@koroli.com.ua">info@koroli.com.ua</a></li>
               </ul>
             </div>
           </div>
